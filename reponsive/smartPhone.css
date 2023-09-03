@@ -1,0 +1,154 @@
+@media (max-width: 767px) {
+  body {
+    /* overflow-y: hidden; Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  .abc {
+    display: flex;
+    flex-direction: column;
+  }
+  .abc .sticky {
+    position: unset;
+    /* display: none; */
+  }
+  .abc #sidebar {
+    display: flex;
+    /* flex-direction: column; */
+    border: none;
+    height: max-content;
+  }
+  .abc #sidebar .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100vw;
+  }
+  .abc #sidebar .logo img {
+    margin-bottom: 30px;
+  }
+  .abc #sidebar .logo button {
+    margin-bottom: 0;
+    cursor: pointer;
+    margin-right: 30px;
+    padding-top: 5px;
+  }
+  .abc #sidebar .menu {
+    /* text-align: center; */
+    min-width: 100vw;
+    /* background-color: var(--color-primary); */
+    /* display: none; */
+  }
+  .abc #sidebar .item {
+    /* border: none; */
+    cursor: pointer;
+    border: 1px solid var(--color-e1e8ef);
+    transition: all 0.5s;
+  }
+  .abc #sidebar .item:hover {
+    background-color: var(--color-primary);
+  }
+  .abc #sidebar .item:hover p {
+    color: white;
+  }
+  .abc #sidebar .item:hover svg {
+    color: white;
+  }
+
+  #sidebar .menu .item__toggle {
+    padding-left: 19px;
+    color: var(--color-primary);
+    display: block;
+  }
+  #sidebar .menu .item__toggle p {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  #sidebar .menu .item__toggle p:hover {
+    background-color: var(--color-primary);
+    color: white;
+  }
+
+  .abc main header .title {
+    /* margin: 0 auto; */
+    margin: 0 10px 18px 10px;
+  }
+  .abc main header .search .content input {
+    width: 300px;
+  }
+  .abc main header .search .content svg {
+    left: 78%;
+  }
+
+  /* Guide */
+  #Guide .title {
+    margin-left: 30px;
+  }
+  #Guide .cards {
+    /* display: grid;
+    grid-template-columns: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Explanation */
+  #explaination .title {
+    margin-left: 30px;
+  }
+  #explaination .explain_content .explain_items {
+    width: 100%;
+    height: max-content;
+    position: relative;
+  }
+  #explaination .explain_content .explain_items:first-child:before {
+    position: absolute;
+    left: 282px;
+    width: 182px;
+  }
+  #explaination .explain_content .explain_items:nth-child(2):before {
+    position: absolute;
+    left: 322px;
+    width: 104px;
+  }
+  #explaination .explain_content .explain_items:nth-child(3):before {
+    position: absolute;
+    left: 322px;
+    width: 104px;
+  }
+  #explaination .explain_content .explain_items h3 {
+    text-align: center;
+  }
+  #explaination .explain_content .explain_items .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Main Features */
+  #main_features .main_features_top {
+    margin-left: 30px;
+  }
+  #main_features .main_features_bottom {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* align-items: center; */
+    gap: 20px;
+  }
+  #main_features .main_features_bottom .main_features_items {
+    width: 100%;
+  }
+  /* footer */
+  footer p {
+    padding-left: 400px;
+  }
+}

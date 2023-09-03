@@ -1,0 +1,70 @@
+#Guide {
+  height: max-content;
+}
+#Guide .title {
+  width: 640px;
+
+  margin-top: 48.5px;
+  height: max-content;
+  display: flex;
+}
+
+#Guide .content {
+  margin-top: 34.5px;
+  margin-left: 20.32px;
+}
+
+#Guide .content p:nth-child(1) {
+  color: var(--color-primary);
+  font-size: 26px;
+
+  font: normal normal normal 26px/35px Noto Sans JP Bold;
+  letter-spacing: -5px;
+}
+
+#Guide .content p:nth-child(2) {
+  color: var(--color-333333);
+  margin-top: 13px;
+
+  width: max-content;
+  text-align: left;
+  font: normal normal normal 16px/21px Noto Sans JP Regular;
+  letter-spacing: -1px;
+}
+
+/* Cards */
+
+#Guide .cards {
+  margin-top: 22.88px;
+
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto auto auto;
+}
+
+#Guide .cards .card {
+  width: 300px;
+  height: 145px;
+  border-radius: 10px;
+
+  padding-top: 22px;
+  padding-left: 48px;
+  padding-right: 48px;
+
+  outline: 1px solid var(--color-primary);
+}
+
+#Guide .cards .card .card_container {
+  text-align: center;
+}
+#Guide .cards .card .card_container .icon {
+  margin-bottom: 5px;
+}
+#Guide .cards .card .card_container .content {
+  margin: 0;
+
+  font-size: 18px;
+  letter-spacing: 0px;
+
+  color: var(--color-primary);
+}

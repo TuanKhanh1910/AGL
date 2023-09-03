@@ -1,0 +1,117 @@
+header {
+  grid-area: header;
+
+  margin-top: 30px;
+  font: normal normal normal 14px/19px Noto Sans JP Regular;
+}
+
+header .title {
+  display: flex;
+  justify-content: space-between;
+
+  color: #7b7b7b;
+
+  margin-bottom: 18px;
+}
+
+header .breadcrum svg {
+  width: 17.87px;
+  height: 15.89px;
+}
+
+header .breadcrum span {
+  text-align: left;
+  letter-spacing: -2px;
+  color: #7b7b7b;
+  opacity: 1;
+}
+
+header .title .contact {
+  width: 215px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .title .contact .item:nth-child(1) span {
+  letter-spacing: -3px;
+  margin-right: 20px;
+}
+
+header .title .contact .item:nth-child(2) span {
+  letter-spacing: -2px;
+  margin-right: 15px;
+}
+header .title .contact .item:nth-child(2) svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Search */
+header .search {
+  height: 90px;
+  font: normal normal normal 16px/21px Noto Sans JP Regular;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .search::before,
+header .search::after {
+  content: "";
+  height: 100%;
+  background: var(--color-eaf1f7) 0% 0% no-repeat padding-box;
+}
+header .search::before {
+  width: 85px;
+  border-radius: 50% 0 0 50%;
+}
+header .search::after {
+  width: 100px;
+  border-radius: 0 50% 50% 0;
+}
+
+header .search .content {
+  width: 100%;
+  height: 100%;
+  background: var(--color-eaf1f7) 0% 0% no-repeat padding-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+header .search .content p {
+  width: 160px;
+  margin-right: 52px;
+  letter-spacing: -3px;
+}
+header .search .content input {
+  width: 426px;
+  height: 50px;
+  margin-right: 13px;
+
+  border-radius: 25px;
+}
+header .search .content svg {
+  position: absolute;
+  left: 32%;
+  color: var(--color-graywhite-1);
+}
+
+header .search .content input::placeholder {
+  color: var(--color-graywhite-1);
+  padding-left: 40px;
+  letter-spacing: -5px;
+}
+
+header .search .content div {
+  width: 94px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: var(--color-primary) 0% 0% no-repeat padding-box;
+  color: var(--color-white);
+  border-radius: 10px;
+}

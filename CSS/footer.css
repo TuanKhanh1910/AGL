@@ -1,0 +1,24 @@
+footer {
+  grid-area: footer;
+  /* width: 1440px; */
+  height: 74.82px;
+  margin-top: 153.92px;
+  background-color: var(--color-333333);
+  margin-bottom: 0;
+}
+
+footer p {
+  color: #ffffff;
+  /* width: max-content; */
+  font: normal normal normal 12px/36px Noto Sans JP Regular;
+  text-align: right;
+  /* margin-top: 18px;
+  margin-bottom: 30px;
+  margin-left: 800px;
+  margin-right: 416px; */
+  margin-bottom: 0;
+  padding-top: 22px;
+  /* padding-bottom: 30.82px; */
+  padding-left: 800px;
+  padding-right: 30px;
+}

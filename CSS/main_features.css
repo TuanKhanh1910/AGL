@@ -1,0 +1,114 @@
+#main_features {
+  height: max-content;
+  margin-top: 96.47px;
+  height: max-content;
+
+  background-color: var(--color-white);
+}
+#main_features .main_features_top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40.13px;
+}
+#main_features .main_features_top img {
+  margin-right: 18.44px;
+  width: 125px;
+  height: 117.4px;
+}
+
+#main_features .main_features_top .sub_title_top h3 {
+  color: var(--color-primary);
+  margin-bottom: 17.92px;
+  font-size: 26px;
+  text-align: left;
+}
+#main_features .main_features_top .sub_title_top p {
+  letter-spacing: -2px;
+  font-size: 16px;
+  color: var(--color-333333);
+}
+#main_features .main_features_bottom {
+  width: 930.5px;
+  height: 796.08px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+#main_features .main_features_bottom .main_features_items {
+  margin-right: 15.5px;
+  /* padding-top: 48.08px; */
+  padding-right: 273.5px;
+  /* margin-bottom: 26.92px; */
+  border-top: 1px solid var(--color-primary);
+  position: relative;
+}
+#main_features .main_features_bottom .main_features_items::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main_features
+  .main_features_bottom
+  .main_features_items:nth-of-type(4):before {
+  content: "";
+  width: 160px;
+  height: 4px;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main_features
+  .main_features_bottom
+  .main_features_items:nth-of-type(5):before {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main_features
+  .main_features_bottom
+  .main_features_items:nth-of-type(6):before {
+  content: "";
+  width: 179px;
+  height: 4px;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main_features
+  .main_features_bottom
+  .main_features_items:nth-of-type(7):before {
+  content: "";
+  width: 119px;
+  height: 4px;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main_features .main_features_bottom .main_features_items h3 {
+  color: var(--color-primary);
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 22px;
+  margin-top: 26.08px;
+  letter-spacing: -3px;
+}
+#main_features .main_features_bottom .main_features_items .sub_title_items {
+  margin-bottom: 20px;
+}
+#main_features .main_features_bottom .main_features_items .sub_title_items p {
+  color: var(--color-primary);
+  font-size: 16px;
+  text-align: left;
+  line-height: 36px;
+}

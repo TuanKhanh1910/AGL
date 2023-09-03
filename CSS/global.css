@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  /* Colors: */
+  --color-primary: #42a7c2;
+  --color-7b7b7b: #7b7b7b;
+  --color-e1e8ef: #e1e8ef;
+  --color-333333: #333333;
+  --color-eaf1f7: #eaf1f7;
+  --color-graywhite: #f8f9fa;
+  --color-graywhite-1: #afafaf;
+  --color-white: #ffffff;
+
+  /* Font/text values */
+  --ff-regular: Noto Sans JP Regular;
+  --ff-bold: Noto Sans JP Bold;
+  --ff-medium: Noto Sans JP Medium;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-12: 12px;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-20: 20px;
+  --unnamed-font-size-26: 26px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing-1-8: 1.8px;
+  --unnamed-line-spacing-19: 19px;
+  --unnamed-line-spacing-21: 21px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-27: 27px;
+  --unnamed-line-spacing-30: 30px;
+  --unnamed-line-spacing-35: 35px;
+  --unnamed-line-spacing-36: 36px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-bold);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-26);
+  line-height: var(--unnamed-line-spacing-35);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-42a7c2);
+}
+.unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-bold);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-20);
+  line-height: var(--unnamed-line-spacing-27);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-42a7c2);
+}
+.unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-bold);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-42a7c2);
+}
+.unnamed-character-style-4 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-medium);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-42a7c2);
+}
+.unnamed-character-style-5 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-medium);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-36);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-42a7c2);
+}
+.unnamed-character-style-6 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-bold);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-1-8);
+  color: var(--unnamed-color-ffffff);
+}
+.unnamed-character-style-7 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-21);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-f8f9fa);
+}
+.unnamed-character-style-8 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-12);
+  line-height: var(--unnamed-line-spacing-36);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+}
+.unnamed-character-style-9 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-21);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-333333);
+}
+.unnamed-character-style-10 {
+  font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-19);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-7b7b7b);
+}

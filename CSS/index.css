@@ -1,0 +1,43 @@
+@import url(./main.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./sidebar.css);
+@import url(./guide.css);
+@import url(./explain.css);
+@import url(./main_features.css);
+@import url(../reponsive/smartPhone.css);
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+
+  top: 10px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.grid .abc {
+  /* display: grid;
+  grid-template-columns: 360px 270px 930px 360px;
+  grid-template-areas:
+    ". sidebar header ."
+    ". sidebar main ."
+    "footer footer footer footer"; */
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
+  /* max-width: 1440px; */
+  /* margin: auto; */
+  display: flex;
+}
+
+section {
+  height: 120px;
+}
