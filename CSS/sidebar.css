@@ -73,7 +73,7 @@
   transition: all 0.5s;
 }
 #sidebar .menu .item__toggle {
-  display: none;
+  max-height: 0;
 }
 #sidebar .menu .item:hover {
   background-color: var(--color-primary);
